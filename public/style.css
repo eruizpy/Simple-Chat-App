@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* bubble style */
+.bubble {
+  text-align: left;
+  margin: 10px;
+}
+
+/* self overides bubble if message comes from self */
+.self {
+  text-align: right;
+}
+
+/* this box holds the whole application */
+#box {
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid black;
+}
+
+/* container holds all mesage bubbles */
+#container {
+  width: auto;
+  height: 250px;
+  overflow-y: scroll;
+}
+
+/* submit/send button */
+#submit {
+  font-size: 14pt;
+  margin: 5px;
+  border: none;
+}
+
+/* input */
+#input {
+  font-size: 14pt;
+  margin: 5px;
+  border: none;
+}
